@@ -1,0 +1,4 @@
+LINKS:
+<script src="source_name"></script> ---- How to link js to hrml
+
+BASICS:
