@@ -4,14 +4,29 @@ LINKS:
 BASICS:
     OBJECTS:
         REFERENCE TYPES:
-            Object:
+            OBJECT:
                 let person = {
                     name: 'Mosh',
                     age: 40
                 };
                 person.name;
                 person['name'];
-            Array:
+            ARRAY:
                 let selected = [];
-            Function:
+            FUNCTION:
                 function nameIt() {}
+
+OPERATORS:
+    //Leaving out universal/common knowledge
+    ARITHMETIC OPERATORS:
+    ASSIGNMENT OPERATORS:
+    COMPARISON OPERATORS:
+    EQUALITY OPERATORS:
+        === (Equals) (Strict Equality Same Type + Value)
+        !== (Does not Equal)
+        ==  (Equals) (Loose Equality converts the right side type to match left side type, checks values after)
+        != (Does not Equal)
+    TERNARY OPERATORS:
+        conditional ? 'true option' : 'false option';
+    LOGICAL OPERATORS:
+    
