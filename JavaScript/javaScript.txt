@@ -2,3 +2,15 @@ LINKS:
 <script src="source_name"></script> ---- How to link js to hrml
 
 BASICS:
+    OBJECTS:
+        REFERENCE TYPES:
+            Object:
+                let person = {
+                    name: 'Mosh',
+                    age: 40
+                };
+                person.name;
+                person['name'];
+            Array:
+                let selected = [];
+            Function
