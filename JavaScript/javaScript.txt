@@ -29,4 +29,18 @@ OPERATORS:
     TERNARY OPERATORS:
         conditional ? 'true option' : 'false option';
     LOGICAL OPERATORS:
-    
+    LOGICAL OPERATORS WITH NON-BOOLEANS:
+        Falsy (false):
+            undefined
+            null
+            0
+            false
+            ''
+            NaN
+        Truthy (true):
+            Anything NOT Falsy
+    BITWISE OPERATORS:
+            Technical and super niche, not taking notes.   
+            Can always go back and refresh if I need.
+            It is just logical using bits, easy peasy actually.
+
