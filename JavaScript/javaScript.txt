@@ -13,4 +13,5 @@ BASICS:
                 person['name'];
             Array:
                 let selected = [];
-            Function
+            Function:
+                function nameIt() {}
