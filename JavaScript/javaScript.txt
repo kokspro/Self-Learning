@@ -58,5 +58,10 @@ CONTROL FLOW:
         for (let i = 0; i <= 10; i++) {}
     WHILE:
     DO WHILE:
-    FOR IN:
-    FOR OF:
+    FOR IN: - Better for properties of an object
+        for (let var in otherThing) {}
+    FOR OF: - Better for elements in an array
+        for (let var of array?) {}
+    BREAK AND CONTINUE:
+        break; to exit a loop
+        continue; to jump to top of loop

@@ -22,3 +22,27 @@
 // console.log(a);
 // console.log(b);
 
+//For In Loop
+
+// const person = {
+//     name: 'William',
+//     age: 40
+// };
+
+// for (let key in person) {
+//     console.log(key, person[key]);
+// }
+
+// const colors = ['red', 'blue', 'green'];
+
+// for (let index in colors) {
+//     console.log(index, colors[index]);
+// }
+
+//For Of Loop
+
+// const colors = ['red', 'blue', 'green'];
+
+// for (let color of colors) {
+//     console.log(color);
+// }
