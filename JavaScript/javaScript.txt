@@ -44,3 +44,19 @@ OPERATORS:
             Can always go back and refresh if I need.
             It is just logical using bits, easy peasy actually.
 
+CONTROL FLOW:
+    IF ELSE:
+    SWITCH CASE:
+        switch (role) {
+            case 'value':
+                statement;
+                break;
+            default:
+                statement;
+        }
+    FOR:
+        for (let i = 0; i <= 10; i++) {}
+    WHILE:
+    DO WHILE:
+    FOR IN:
+    FOR OF:
