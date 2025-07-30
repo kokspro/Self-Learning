@@ -1,3 +1,7 @@
+FUN SHORTCUTS FOR ME:
+    Highlight and ( will place them outside
+    Highlight + Alt + Arrow moves 
+
 LINKS:
 <script src="source_name"></script> ---- How to link js to hrml
 
