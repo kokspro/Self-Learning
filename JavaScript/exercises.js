@@ -118,3 +118,75 @@
 // };
 
 // showProperties(person);
+
+//Exercise 8 - Sum of Multiples of 3 and 5
+
+// function sum(limit) {
+//     let sums = 0;
+
+//     for (i = 0; i <= limit; i++)
+//         if ((i % 3 === 0) || (i % 5 === 0))
+//             sums += i;
+
+//     console.log(sums);
+// }
+
+// sum(10);
+
+//Exercise 9 - Grade
+
+// function calculateGrade(marks) {
+//     let totalGrade = 0;
+
+//     for (let grade of marks) 
+//         totalGrade += grade;
+
+//     let average = totalGrade / marks.length;
+
+//     if (average >= 90)
+//         return 'A';
+//     if (average >= 80)
+//         return 'B';
+//     if (average >= 70)
+//         return 'C';
+//     if (average >= 60)
+//         return 'D';
+//     return 'F';
+// }
+
+// const grades = [90, 95, 100, 80, 85, 93, 21];
+// console.log(calculateGrade(grades));
+
+//Exercise 10 - Stars
+
+// function showStars(rows) {
+//     for (let i = 1; i <= rows; i++) {
+//         let string = '';
+//         for (let j = 1; j <= i; j++) {
+//             string = string + '*';
+//         }
+//         console.log(string);
+//     }
+// }
+
+// showStars(14);
+
+//Exercise 11 - Prime Numbers
+
+// function showPrimes(limit) {
+//     for (let num = 2; num <= limit; num++) {
+//         let prime = true;
+
+//         for (let divisor = 2; divisor < num; divisor++)
+//             if (num % divisor === 0) {
+//                 prime = false;
+//                 break;
+//             }
+//         if (prime)
+//             console.log(num);
+//     }
+// }
+
+// showPrimes(20);
+
+

@@ -46,3 +46,6 @@
 // for (let color of colors) {
 //     console.log(color);
 // }
+
+
+//Start at Objects Lesson 1
