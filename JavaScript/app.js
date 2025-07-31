@@ -47,5 +47,51 @@
 //     console.log(color);
 // }
 
+//FACTORY
 
-//Start at Objects Lesson 1
+// function createCircle() {
+//     const circle =  {
+//         radius: 1,
+//         location: {
+//             x: 1,
+//             y: 1
+//         },
+//         isVisible: true,
+//         draw: function() {
+//             console.log('draw');
+//         }
+//     };
+//     return circle; 
+// }
+
+//shorter version of Factory
+
+// function createCircle() {
+//     return {
+//         radius,
+//         draw() {
+//             console.log('draw');
+//         }
+//     };
+// }
+
+// const circle1 = createCircle(1);
+// const circle2 = createCircle(4);
+// console.log(circle1);
+// console.log(circle2);
+
+//CONSTRUCTOR FUNCTIONS
+
+// function Circle(radius) {
+//     this.radius = radius;
+//     this.draw = function() {
+//         console.log('draw');
+//     }
+// }
+
+// const circle1 = new Circle(1);
+// const circle2 = new Circle(4);
+
+// console.log(circle1);
+// console.log(circle2);
+

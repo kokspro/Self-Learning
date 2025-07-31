@@ -69,3 +69,25 @@ CONTROL FLOW:
     BREAK AND CONTINUE:
         break; to exit a loop
         continue; to jump to top of loop
+
+OBJECTS:
+    FACTORY:
+        function createCircle() {
+            const circle =  {
+               radius: 1,
+               location: {
+                    x: 1,
+                    y: 1
+                },
+                isVisible: true,
+               draw: function() {
+                  console.log('draw');
+                }
+            };
+        return circle; 
+        }
+        More concise factory function in app.js
+
+    CONSTRUCTOR:
+        USE PASCAL NOTATION: OneTwoThreeFour, first of each caps 
+        
