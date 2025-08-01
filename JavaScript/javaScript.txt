@@ -90,4 +90,10 @@ OBJECTS:
 
     CONSTRUCTOR:
         USE PASCAL NOTATION: OneTwoThreeFour, first of each caps 
-        
+        Example in app.js
+
+    CLONING:
+        Use a for in loop with bracket notation, easy peasy
+        Or, Object.assign  Example in app.js
+        Or, const another = { ...object }
+

@@ -95,3 +95,27 @@
 // console.log(circle1);
 // console.log(circle2);
 
+//OBJECT CLONING
+
+// const circle = {
+//     radius: 1,
+//     draw() {
+//         console.log('draw');
+//     }
+// };
+
+//The {} is creating a new object to place the copy in
+// const another = Object.assign({}, circle);
+
+// console.log(another);
+// circle.radius = 73;
+// console.log(circle);
+// console.log(another);
+
+// const another = { ...circle };
+// console.log(another);
+// circle.radius = 73;
+// console.log(circle);
+// console.log(another);
+
+//Start at Objects Math
