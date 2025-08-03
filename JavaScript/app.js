@@ -66,7 +66,7 @@
 
 //shorter version of Factory
 
-// function createCircle() {
+// function createCircle(radius) {
 //     return {
 //         radius,
 //         draw() {
@@ -146,4 +146,8 @@
 // console.log(message);
 // message = message.replace('first', 'second');
 // console.log(message);
+
+
+
+//Object Exercise 4
 

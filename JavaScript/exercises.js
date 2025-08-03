@@ -190,3 +190,83 @@
 // showPrimes(20);
 
 
+//OBJECT EXERCISES
+//OBJECT EXERCISES
+//OBJECT EXERCISES
+
+//Exercise 1 
+//Make an address object, function to print off keys and values
+
+// const address = {
+//     street: 'Hilton Head',
+//     city: 'Missouri City',
+//     zipCode: 77459
+// };
+
+// function showAddress(address) {
+//     for (let key in address) {
+//         console.log(`${key}: ${address[key]}`);
+//     }
+// }
+
+// showAddress(address);
+
+//Exercise 2
+//Use a factory to create an address
+//Use a constructor to create an address
+
+// function createAddress(street, city, zipcode) {
+//     return {
+//         street,
+//         city,
+//         zipcode
+//     };
+// }
+
+// let factoryAddress = createAddress('Hilton Head', 'Missouri City', 77459);
+// console.log(factoryAddress);
+
+// function Address(street, city, zipcode) {
+//     this.street = street;
+//     this.city = city;
+//     this.zipcode = zipcode;
+// }
+
+// let constructorAddress = new Address('Hilton Head', 'Missouri City', 77459);
+// console.log(constructorAddress);
+
+
+//Exercise 3
+//Object Equality
+//Use previous constructor to create 2 addresses, compare them to see if they are equal
+//Are same to check if they point to the same object
+
+// function Address(street, city, zipcode) {
+//     this.street = street;
+//     this.city = city;
+//     this.zipcode = zipcode;
+// }
+
+// let address1 = new Address('Hilton Head', 'Missouri City', 77459);
+// let address2 = new Address('Hilton Head', 'Missouri City', 77459);
+
+// function areEqual(object1, object2) {
+//     if (object1.street !== object2.street)
+//         return false;
+//     if (object1.city !== object2.city)
+//         return false;
+//     if (object1.zipcode !== object2.zipcode)
+//         return false;
+//     return true;
+// }
+
+// console.log(areEqual(address1, address2));
+
+// function areSame(object1, object2) {
+//     console.log(object1 === object2);
+// }
+
+// areSame(address1, address2);
+
+//Exercise 4 - Blog Post Object
+
