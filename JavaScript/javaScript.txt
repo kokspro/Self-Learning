@@ -97,3 +97,25 @@ OBJECTS:
         Or, Object.assign  Example in app.js
         Or, const another = { ...object }
 
+    MATH:
+        Math.random() * (max - min) + min; for random in range
+    
+    STRING:
+        String primitives get turned into wrapped in object with dot notation
+        Docs for sure.
+        .replace creates a new string and does not modify the original
+        Excape notation is a thing using \
+
+    TEMPLATE LITERALS:
+        ${} is for variable
+
+    DATE:
+        const date = new Date(); 
+        can use up and down arrows to display how dates is displayed
+        Month is 0 based
+        .toDateString()
+        .toTimeString()
+        .toISOString()
+        These are good ways to record for applications and talk with server (ISO)
+
+    

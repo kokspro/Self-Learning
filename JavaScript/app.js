@@ -118,4 +118,32 @@
 // console.log(circle);
 // console.log(another);
 
-//Start at Objects Math
+//MATH
+
+// console.log(Math.round(Math.random() * (10 - 1) + 1));
+// console.log(Math.round(Math.random() * (10 - 1) + 1));
+// console.log(Math.round(Math.random() * (10 - 1) + 1));
+// console.log(Math.round(Math.random() * (10 - 1) + 1));
+// console.log(Math.round(Math.random() * (10 - 1) + 1));
+// console.log(Math.round(Math.random() * (10 - 1) + 1));
+// console.log(Math.round(Math.random() * (10 - 1) + 1));
+// console.log(Math.round(Math.random() * (10 - 1) + 1));
+// console.log(Math.round(Math.random() * (10 - 1) + 1));
+// console.log(Math.round(Math.random() * (10 - 1) + 1));
+// console.log(Math.round(Math.random() * (10 - 1) + 1));
+// console.log(Math.round(Math.random() * (10 - 1) + 1));
+// console.log(Math.round(Math.random() * (10 - 1) + 1));
+// console.log(Math.round(Math.random() * (10 - 1) + 1));
+// console.log(Math.round(Math.random() * (10 - 1) + 1));
+// console.log(Math.round(Math.random() * (10 - 1) + 1));
+// console.log(Math.round(Math.random() * (10 - 1) + 1));
+// console.log(Math.round(Math.random() * (10 - 1) + 1));
+// console.log(Math.round(Math.random() * (10 - 1) + 1));
+
+//Stringplay
+
+// let message = "first";
+// console.log(message);
+// message = message.replace('first', 'second');
+// console.log(message);
+
