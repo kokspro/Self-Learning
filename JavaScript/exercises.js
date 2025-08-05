@@ -269,4 +269,31 @@
 // areSame(address1, address2);
 
 //Exercise 4 - Blog Post Object
+//create an object literal blog post with the following fields
+//title, body, author, views, comments (author, body), isLive (boolean)
+
+// const blogPost = {
+//     title: 'Cool Title',
+//     body: 'Lazy kids do all the hard things',
+//     author: 'William Koks',
+//     views: 10,
+//     comments:[ {
+//         author: 'Bobby',
+//         body: 'I comment on things for funsies'
+//     }],
+//     isLive: false
+// };
+// console.log(blogPost);
+
+//Exercise 5 - Constructor for blogPost
+
+// function BlogPost(title, body, author) {
+//     this.title = title;
+//     this.body = body;
+//     this.author = author;
+//     this.views = 0;
+//     this.comments = [];
+//     this.isLive = false;
+// }
+
 
