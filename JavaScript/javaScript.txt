@@ -119,3 +119,23 @@ OBJECTS:
         These are good ways to record for applications and talk with server (ISO)
 
     
+ARRAYS:
+    ADDING:
+        array.push(adds to the end)
+        array.unshift(adds to beginning)
+        array.splice(start index, number of elements to delete, however many elements to add)
+    FINDING ELEMENTS:
+        PRIMITIVES:
+            array.indexOf()
+            array.lastIndexOf()
+            array.includes()
+            Searches can have an optional parameter of index to start searching from
+        REFERENCE TYPES(OBJECT):
+            Little more complicated, maybe refresh, example in app.js   
+            array.find(function(element) {body})
+            array.findIndex(function(element) {body})
+        ARROW FUNCTIONS:
+            Example under previous example in app.js
+
+        //removing elements start 
+         

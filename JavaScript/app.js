@@ -149,5 +149,25 @@
 
 
 
-//Object Exercise 4
+//ARRAYS
+//ARRAYS
+//ARRAYS
+
+//FINDING OBJECTS
+
+// const courses = [
+//     { id: 1, name: 'a' },
+//     { id: 2, name: 'b' }
+// ];
+
+// const found = courses.find(function(element) {
+//     return element.name === 'a';
+// }); 
+
+// console.log(found);
+
+//Same using arrow functions
+
+// const found = courses.find(element => { element.name === 'a' });
+//element use because there is one element, otherwise use (), () also for no parameters
 
