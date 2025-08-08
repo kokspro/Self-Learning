@@ -134,8 +134,34 @@ ARRAYS:
             Little more complicated, maybe refresh, example in app.js   
             array.find(function(element) {body})
             array.findIndex(function(element) {body})
-        ARROW FUNCTIONS:
-            Example under previous example in app.js
+    ARROW FUNCTIONS:
+        Example under previous example in app.js
+    REMOVING ELEMENTS:
+        array.pop() removes from the end and returns It
+        array.shift() removes from the front, returns It
+        array.splice(element start, number of elements to remove)
+    EMPTYING:
+        reassign array (can't be used if const)
+        array.length = 0; will truncate the array
+        array.splice(0, array.length);
+    COMBINING AND SLICING:
+        array1.concat(array2); returns new array, doesn't change originals
+        array.slice(start(optional), finish-excluding(optional))
+        If using primitives, they are copied
+        If using objects, references are copied, so they point to the same thing
+    SPREAD OPERATOR:
+        const combined = [...array1, ...array2];
+    ITERATING AN ARRAY:
+        for of loop for array
+        array.forEach(function(number) {
+           console.log(number);
+        });    
+        array.forEach(number => console.log(number)); faster way
+        Optional adding done in app.js    
+    JOINING ARRAYS:
+        array.join('what to separate them by'), returns a string
+        string.split('where to split (' ' split on spaces)'), this works on a string not an array but returns an array
+        
 
-        //removing elements start 
-         
+
+

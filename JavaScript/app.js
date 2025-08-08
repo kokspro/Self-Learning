@@ -171,3 +171,26 @@
 // const found = courses.find(element => { element.name === 'a' });
 //element use because there is one element, otherwise use (), () also for no parameters
 
+//ITERATING AN ARRAY
+
+// const numbers = [1, 2, 3, 4];
+
+// for (let number of numbers)
+//     console.log(number);
+
+// numbers.forEach(number => console.log(number));
+
+// numbers.forEach((number, index) => console.log(index, number));
+
+//JOINING ARRAYS
+
+// const numbers = [1, 2, 3, 4];
+// const joined = numbers.join('***');
+// console.log(joined);
+
+// const message = 'This is a message';
+// const parts = message.split(' ');
+// console.log(parts);
+
+// const combined = parts.join('***');
+// console.log(combined);
