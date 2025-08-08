@@ -194,3 +194,36 @@
 
 // const combined = parts.join('***');
 // console.log(combined);
+
+//SORTING ARRAYS OBJECTS
+
+// const courses = [ 
+//     { id: 1, name: 'Node.js' },
+//     { id: 2, name: 'JavaScript' }
+// ];
+
+// courses.sort(function(first, second) {
+//     if (first.name < second.name) return -1;
+//     if (first.name > second.name) return 1;
+//     return 0;
+// });
+
+//TESTING ELEMENTS IN AN ARRAY
+
+// const numbers = [1, 2, -1, 4];
+
+// const atLeastOnePos = numbers.some(function(value) {
+//     return value >= 0;
+// });
+
+// console.log(atLeastOnePos);
+
+//FILTERING AN ARRAY
+
+
+
+
+
+
+
+

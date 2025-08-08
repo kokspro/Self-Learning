@@ -1,6 +1,7 @@
 FUN SHORTCUTS FOR ME:
     Highlight and ( will place them outside
-    Highlight + Alt + Arrow moves 
+    Highlight + Alt + Arrow moves
+    Highlight name and ctrl + d lets you change all of them 
 
 LINKS:
 <script src="source_name"></script> ---- How to link js to hrml
@@ -161,7 +162,14 @@ ARRAYS:
     JOINING ARRAYS:
         array.join('what to separate them by'), returns a string
         string.split('where to split (' ' split on spaces)'), this works on a string not an array but returns an array
+    SORTING ARRAYS:
+        array.sort();, turns them into strings and sorts by that
+        array.reverse(); reverses the array
+        Object sorting done in app.js
+    TESTING ELEMENTS OF AN ARRAY:
+        array.every(function(value), optional index, optional array), returns a BOOLEANS
+        array.some = same thing but checks if at least 1 fits the function
+    FILTERING AN ARRAY:
         
-
 
 
