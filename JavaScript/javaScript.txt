@@ -170,6 +170,18 @@ ARRAYS:
         array.every(function(value), optional index, optional array), returns a BOOLEANS
         array.some = same thing but checks if at least 1 fits the function
     FILTERING AN ARRAY:
-        
+        Example in app.js
+        array.filter(function()) as with some previous methods
+    MAPPING AN ARRAY:
+        array.map(function()), can set them to say HTML elements, will return an array
+        then can join them 
+        can also map to objects
+        if mapping to object you cannot exclude default {}
+        filter and map return new arrays, they do not alter the original
+    REDUCING AN ARRAY:
+        example in app.js
+        takes two parameters, accumulator and currentValue
+        second parameter after function is starting value of accumulator
+               
 
 

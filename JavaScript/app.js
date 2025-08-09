@@ -220,6 +220,50 @@
 
 //FILTERING AN ARRAY
 
+// const numbers = [1, -1, 2, 3];
+
+//const pos = numbers.filter(function(value) {
+//     return value >= 0;
+// });
+//since a single line we can just arrow function it
+// const pos = numbers.filter(value => value >= 0);
+
+// console.log(pos);
+
+//MAPPING AND CHAINING
+
+// const numbers = [1, -1, 2, 3];
+
+//filter out numbers less than 0
+//map each number to an object where the value is the number
+//filter out objects where the value is less than or equal to 1
+//map each object to the number of their value
+
+// const items = numbers
+//     .filter(n => n >= 0)
+//     .map(n => ({ value: n }))
+//     .filter(obj => obj.value > 1)
+//     .map(obj => obj.value);
+
+// console.log(items);
+
+//REDUCING AN ARRAY
+
+// const numbers = [1, -1, 2, 3];
+
+// const sum = numbers.reduce((accumulator, currentValue) => {
+//     return accumulator + currentValue;
+// }, 0);
+
+// const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue);
+
+//can get rid of initial 0 at the end and accumulator will be set to first value in the array
+
+// console.log(sum);
+
+
+
+
 
 
 
