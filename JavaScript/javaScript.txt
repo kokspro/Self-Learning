@@ -140,7 +140,7 @@ ARRAYS:
     REMOVING ELEMENTS:
         array.pop() removes from the end and returns It
         array.shift() removes from the front, returns It
-        array.splice(element start, number of elements to remove)
+        array.splice(element start, number of elements to remove, elements to add)
     EMPTYING:
         reassign array (can't be used if const)
         array.length = 0; will truncate the array

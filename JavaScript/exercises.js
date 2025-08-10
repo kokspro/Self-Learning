@@ -297,3 +297,160 @@
 // }
 
 
+//ARRAY EXERCISES
+//EXERCISE 1 - Array from range
+
+// const numbers = arrayFromRange(-44, 6);
+
+// console.log(numbers);
+
+// function arrayFromRange(min, max) {
+//     const array = [];
+//     for (let i = min; i <= max; i++)
+//         array.push(i);
+//     return array;
+// }
+
+
+//Exercise 2 - Includes (rewrite the method)
+
+// const numbers = [1, 2, 3, 4];
+
+// function myIncludes(array, searchElement) {
+//     for (let value of array)
+//         if (value === searchElement)
+//             return true;
+//     return false;    
+// }
+
+// console.log(myIncludes(numbers, -1));
+
+
+//Exercise 3 - Except - Remove elements from an array
+
+// const numbers = [1, 2, 3, 4, 1, 2, 1, 2];
+
+// const output = except(numbers, [1, 2]);
+
+// console.log(output);
+
+// function except(array, excluded) {
+//     const newArray = [];
+//     for (let element of array)
+//         if (!excluded.includes(element))
+//             newArray.push(element);
+//     return newArray;    
+// }
+
+//Exercise 4 - Moving an Element
+
+// const numbers = [1, 2, 3, 4];
+
+// const output = move(numbers, 0, -1);
+
+// console.log(output);
+
+// function move(array, index, offset) {
+//     const newArray = [...array];
+//     let toMove = newArray[index];
+//     if (toMove == undefined) {
+//         console.error('Invalid offset');
+//         return;
+//     }
+//     if (index + offset < array.length - 1 || index + offset > array.length - 1) {
+//         console.error('Invalid offset');
+//         return;
+//     }
+//     newArray.splice(index, 1);
+//     newArray.splice(index + offset, 0, toMove);
+//     return newArray;
+// }
+
+//Exercise 5 - Count Occurrences
+//do it the simple way, then implement reduce
+// const numbers = [1, 1, 2, 2, 3, 4, 5];
+
+// const count = countOccurrences(numbers, -2);
+
+// console.log(count);
+
+// function countOccurrences(array, searchElement) {
+    // let count = 0;
+    // for (let element of array) 
+    //     if (element === searchElement)
+    //         count++;
+
+    // return count;
+
+    //same but with reduce
+    // return array.reduce((accumulator, current) => {
+    //     const occurence = (current === searchElement) ? 1 : 0;
+    //     return accumulator + occurence;
+    // }, 0);
+// }
+
+//Exercise 6 - Get Max
+//simple method, then reduce
+
+// const numbers = [21, 2, 12, 3, 4];
+
+// const max = getMax(numbers);
+
+// console.log(max);
+
+// function getMax(array) {
+//     let currMax = array[0];
+//     for (let element of array) 
+//         if (element > currMax)
+//             currMax = element;
+//     return currMax
+// }
+
+//with reduce
+
+// function getMax(array) {
+//     return array.reduce((currMax, newElement) => {
+//         if (newElement > currMax)
+//             return newElement;
+//         return currMax;
+//     }, array[0]);
+// }
+
+//testing a possible shorter code
+
+// function getMax(array) {
+//     return array.reduce((currMax, newElement) => {
+//         return (newElement > currMax) ? newElement : currMax;
+//     }, array[0]);
+// }
+
+//Exercise 7 - Movies
+
+// const movies = [
+//     { title: 'a', year: 2018, rating: 4.5 },
+//     { title: 'b', year: 2018, rating: 4.7 },
+//     { title: 'c', year: 2018, rating: 3 },
+//     { title: 'd', year: 2017, rating: 4.5 }
+// ];
+
+//All movies in 2018 with a rating > 4
+//sort them by their rating
+//descending order
+//pick their title and display on console
+
+// const output = movies
+//     .filter(movie => (movie.year === 2018) && (movie.rating > 4)) 
+//     .sort((a, b) => b.rating - a.rating)
+//     .map(obj => obj.title);
+// console.log(output);
+
+
+
+
+
+
+
+
+
+
+
