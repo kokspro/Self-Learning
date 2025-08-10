@@ -261,6 +261,49 @@
 
 // console.log(sum);
 
+//FUNCTIONS
+//FUNCTIONS
+//FUNCTIONS
+
+//ARGUMENTS OBJECT
+
+// function sum () {
+//     let total = 0;
+//     for (let value of arguments) 
+//         total += value;
+//     return total;
+// }
+
+//REST OPERATOR
+//rest and spread operator are different but both ...
+//rest operator would turn the passed arguments into an array
+
+// function sum(...args) {
+//     const total = args.reduce((accumulator, currValue) => {
+//         return accumulator + currValue;
+//     }, 0);
+//     return total;
+// }
+
+//cleanup from memory?
+// function sum(...args) {
+//     return args.reduce((accumulator, currValue) => accumulator + currValue);
+// }
+
+// console.log(sum(1, 2, 3, 4, 5, 6));
+
+//Use it to apply a discount to a shopping card
+
+// function sum(discount, ...prices) {
+//     const total = prices.reduce((price1, price2) => price1 + price2);
+//     return total * (1 - discount);
+// }
+
+// console.log(sum(0.2, 20, 55, 62, 13));
+
+
+
+
 
 
 
