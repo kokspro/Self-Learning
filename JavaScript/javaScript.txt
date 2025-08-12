@@ -3,6 +3,11 @@ FUN SHORTCUTS FOR ME:
     Highlight + Alt + Arrow moves
     Highlight name and ctrl + d lets you change all of them 
 
+NPM NOT WORKING
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
 LINKS:
 <script src="source_name"></script> ---- How to link js to hrml
 
