@@ -446,11 +446,39 @@
 
 
 
+//FUNCTION EXERCISES
+//FUNCTION EXERCISES
+//FUNCTION EXERCISES
 
+//EXERCISE 1 - Sum of Arguments
 
+//function sum should return the sum of all arguments
+//challenge - use Array.isArray and do the same if it is given an array
 
+// function sum(...args) {
+//     return args.reduce((arg1, arg2) => arg1 + arg2);
+// }
+// console.log(sum(1, 2, 3, 4, 5));
 
+// function sum(...args) {
+//     if (Array.isArray(args[0]))
+//         return args[0].reduce((arg1, arg2) => arg1 + arg2);
+//     return args.reduce((arg1, arg2) => arg1 + arg2);
+// }
+// console.log(sum([1, 2, 3, 4, 5]));
 
+//Exercise 2 - Area of a Circle with getters and setters
+
+// const circle = {
+//     radius: 3,
+//     get area() {
+//         return this.radius * this.radius * Math.PI;
+//     }
+// }
+// circle.radius = 2;
+// console.log(circle.area);
+
+//Exercise 3 - Handling Errors
 
 
 
