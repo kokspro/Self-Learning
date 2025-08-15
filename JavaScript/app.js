@@ -301,10 +301,49 @@
 
 // console.log(sum(0.2, 20, 55, 62, 13));
 
+//GETTERS AND SETTERS
 
+// const person = {
+//     firstName: 'William',
+//     lastName: 'Koks',
+//     get fullName() {
+//         return `${person.firstName} ${person.lastName}`;
+//     },
+//     set fullName(name) {
+//         const names = name.split(' ');
+//         this.firstName = names[0];
+//         this.lastName = names[1];
+//     }
+// };
+// person.fullName = 'John Smith';
+// console.log(person.fullName);
 
+//TRY CATCH BLOCK
 
+// const person = {
+//     firstName: 'William',
+//     lastName: 'Koks',
+//     get fullName() {
+//         return `${person.firstName} ${person.lastName}`;
+//     },
+//     set fullName(name) {
+//         if (typeof name !== 'string')
+//             throw new Error(`Woah buddy, this isn't a string`);
+//         const names = name.split(' ');
+//         if (names.length !== 2)
+//             throw new Error('Please enter a First and Last name');
+//         this.firstName = names[0];
+//         this.lastName = names[1];
+//     }
+// };
 
+// try {
+//     person.fullName = 'Dolphin';
+// }
+// catch (error) {
+//     console.log(error);
+// }
+// console.log(person.fullName);
 
 
 

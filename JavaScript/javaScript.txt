@@ -211,7 +211,11 @@ FUNCTIONS:
         Rate and years have a default value 
         Default values need to be at the end like the REST OPERATORS
     GETTERS AND SETTERS:
-        
+        Getters access properties in an object
+        Setters alter or mutate properties in an object
+    TRY CATCH BLOCK:
+        Example in app.js
+            
 
 
 
