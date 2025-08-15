@@ -215,6 +215,10 @@ FUNCTIONS:
         Setters alter or mutate properties in an object
     TRY CATCH BLOCK:
         Example in app.js
+    THIS KEYWORD:
+        this represents the object that is executing the current function
+        Arrow functions maintain the this value
+        
             
 
 
