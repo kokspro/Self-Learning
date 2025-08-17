@@ -478,7 +478,29 @@
 // circle.radius = 2;
 // console.log(circle.area);
 
-//Exercise 3 - Handling Errors
+// Exercise 3 - Handling Errors
 
+//if first argument is not an array, throw an exception
 
+// const numbers = [1, 2, 3, 4];
+// const numbers = true;
+const numbers = 6;
+try {
+    const count = countOccurrences(numbers, 1);
+    console.log(count);
+}
+
+catch(error) {
+    console.log(error);
+}
+
+function countOccurrences(array, searchElement) {
+    if (!Array.isArray(array)) {
+        throw new Error('First argument is not an array!');
+    }
+    return array.reduce((accumulator, current) => {
+        const occurence = (current === searchElement) ? 1 : 0;
+        return accumulator + occurence;
+    }, 0);
+}
 
