@@ -220,6 +220,24 @@ FUNCTIONS:
         Arrow functions maintain the this value
         
             
+Starting OOP/Advanced JS 
+
+PILLARS OF OOP:
+    ENCAPSULATION:
+        Grouping methods and properties within an object.
+
+    ABSTRACTION:
+        Some method and properties are hidden from the outside.
+
+    INHERITANCE:
+        Gets rid of redundant code
+
+    POLYMORPHISM:
+        Objects can have their own methods that share names with others
+        eg. square, circle, and triangle objects can all have draw() but they're all unique to themselves
+
+    
+
 
 
 
