@@ -484,23 +484,23 @@
 
 // const numbers = [1, 2, 3, 4];
 // const numbers = true;
-const numbers = 6;
-try {
-    const count = countOccurrences(numbers, 1);
-    console.log(count);
-}
+// const numbers = 6;
+// try {
+//     const count = countOccurrences(numbers, 1);
+//     console.log(count);
+// }
 
-catch(error) {
-    console.log(error);
-}
+// catch(error) {
+//     console.log(error);
+// }
 
-function countOccurrences(array, searchElement) {
-    if (!Array.isArray(array)) {
-        throw new Error('First argument is not an array!');
-    }
-    return array.reduce((accumulator, current) => {
-        const occurence = (current === searchElement) ? 1 : 0;
-        return accumulator + occurence;
-    }, 0);
-}
+// function countOccurrences(array, searchElement) {
+//     if (!Array.isArray(array)) {
+//         throw new Error('First argument is not an array!');
+//     }
+//     return array.reduce((accumulator, current) => {
+//         const occurence = (current === searchElement) ? 1 : 0;
+//         return accumulator + occurence;
+//     }, 0);
+// }
 
