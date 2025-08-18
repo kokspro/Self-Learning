@@ -236,6 +236,29 @@ PILLARS OF OOP:
         Objects can have their own methods that share names with others
         eg. square, circle, and triangle objects can all have draw() but they're all unique to themselves
 
+FACTORIES REFRESH:
+    function createCircle(radius) {
+        return {
+            radius,
+            draw() {
+                console.log('draw');
+            }
+        }
+    }
+    const circle = createCircle(1);
+    circle.draw();
+    console.log(circle.radius);
+
+CONSTRUCTORS REFRESH:
+    function Circle(radius) {
+        this.radius = radius;
+        this.draw() {
+            console.log('draw');
+        }
+    }
+
+CONSTRUCTOR PROPERTIES:
+    object.constructor gives me the function that constructed it
     
 
 

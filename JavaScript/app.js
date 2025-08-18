@@ -345,8 +345,33 @@
 // }
 // console.log(person.fullName);
 
+//More Factory Practice
 
+// function createCircle(radius) {
+//     return {
+//         radius,
+//         draw() {
+//             console.log('draw');
+//         }
+//     }
+// }
 
+// const circle = createCircle(7);
+// circle.draw();
+// console.log(circle.radius);
+
+//CONSTRUCTORS
+
+// function Circle(radius) {
+//     this.radius = radius;
+//     this.draw = function() {
+//         console.log('draw');
+//     }
+// }
+
+// const circle = new Circle(4);
+// circle.draw();
+// console.log(circle.radius);
 
 
 
